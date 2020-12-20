@@ -1,31 +1,36 @@
-ul {
-    position: fixed;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-    float: right;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 0;
+}
+.navigation {
+    background-color:#A800F5;
+
+    padding: 1rem;
+    border-bottom-left-radius: 1.8rem;
+    border-top-right-radius: 1.8rem;
+}
+  .nav-brand {
+      font-size: larger;
+      font-weight: bold;
+      margin: .5rem 0rem;
+      color: white;
   }
-  
-   li {
-    float :left;
-    border-right: 1px solid #bbb;
+  .navigation .link{
+      font-size: medium;
+      color: white;
+      text-decoration: none;
+      margin: 1rem 1rem;
+      padding : 2rem 1rem;
   }
-  
-  li a {
-    display: block;
-    color: white;
-    
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  .navigation .nav-pills{
+      text-align: right;
   }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
+  .inline-list {
+      display: inline;
   }
-  
+  .navigation .link-active {
+      font-weight: bold;
+  }
 /*#A800F5*/
